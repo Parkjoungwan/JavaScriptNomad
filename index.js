@@ -1,8 +1,7 @@
-const calculator = {
-    plus: function(a,b){
-        return a+b;
-    }
-}
+const title = document.getElementById("title")
+title.innerHTML = "Hi i'm park"
+console.log(title);
 
-const plus = calculator.plus (5, 5)
-console.log(plus)
+console.error("Fuck")
+//DOM: document object model
+//자바스크립는 html의 모든 요소를 객체로 만들어와 가져온다.->document
