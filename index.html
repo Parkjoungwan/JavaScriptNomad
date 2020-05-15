@@ -1,19 +1,35 @@
 <!DOCTYPE html>
 <html>
+
     <head>
         <title>Something</title>
         <link rel="stylesheet"
         href="index.css"/>
     </head>
+
     <body>
+        <!--현재 시각을 나타냄-->
         <div class="js-clock">
             <h1>00:00</h1>
         </div>
+        <!--이름을 묻는 form-->
         <form class="js-form form">
             <input type="text" placeholder="what is your name?" />
         </form>
+        <!--입력받은 이름으로 환영문을 작성-->
         <h4 class="js-greetings greetings"></h4>
+        <!--toDo리스트를 추가하는 form-->
+        <form class="js-toDoForm">
+            <input type="text" placeholder="Write a to do"/>
+        </form>
+
+        <ul class="js-toDoList">
+            
+        </ul>
+
         <script src="clock.js"></script>
         <script src="gretting.js"></script>
+        <script src="todo.js"></script>
     </body>
+
 </html>
